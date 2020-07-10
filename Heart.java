@@ -2,7 +2,7 @@ import java.util.*;
 public class Heart{
     public static void main (String args[]){
         Scanner sc=new Scanner(System.in);
-        System.out.println("Enter the size oh heart max upto 30 for better view");
+        System.out.println("Enter the size oh heart");
         int n=sc.nextInt();
         for(int i=-3*n/2;i<=n;i++){
             for(int j=-3*n/2;j<3*n/2;j++){
